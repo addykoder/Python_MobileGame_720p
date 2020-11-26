@@ -1,0 +1,8 @@
+import pygame
+pygame.init()
+ds=pygame.display.set_mode((720,1280))
+while True:
+	for event in pygame.event.get():
+		if event.type==pygame.MOUSEBUTTONDOWN:
+			import xx.py
+	pygame.display.update()
